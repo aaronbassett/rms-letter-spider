@@ -4,3 +4,6 @@ lib/
 lib64
 pyvenv.cfg
 
+# IDEA-based IDE
+.idea/
+
