@@ -12,4 +12,4 @@ if response.status_code == 200:
         if url.find("https://github.com") != -1:
             github_usernames.append(url.strip("/").split("/")[-1])
 
-print(github_usernames)
+print(sorted(github_usernames))
